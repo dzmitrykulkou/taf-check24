@@ -16,4 +16,8 @@ public class HomeSteps extends BaseSteps {
     public void search(String searchText) {
         homePage.search(searchText);
     }
+
+    public String getCopyrightText() {
+        return homePage.getCopyrightText();
+    }
 }
